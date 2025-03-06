@@ -1,0 +1,61 @@
+/* Dark Night Mode */
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Welcome Text */
+#welcome-text {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    top: 20px;
+    left: 0;
+    animation: fadeOut 5s forwards;
+}
+
+/* Cover Photo */
+header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Category Section */
+.categories {
+    margin-top: 20px;
+}
+
+.category {
+    margin: 10px auto;
+    width: 80%;
+}
+
+.toggle-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.content {
+    display: none;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 5px;
+}
+
+/* Fade Out Animation */
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; display: none; }
+}
